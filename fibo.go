@@ -9,7 +9,7 @@ func main() {
 	
 
 }
-func fiboList(userNumber int) {
+func fiboList(UserNumber int) {
 	var n1 int = 0
 	var n2 int = 1
 	var n3 int = n2
