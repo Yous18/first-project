@@ -5,10 +5,10 @@ import (
 	"math/rand"
 	"time"
 )
-var userNumber int
+
 
 func main() {
-	
+	var userNumber int
 	var v [30]int
 	rand.Seed(time.Now().UnixNano())
 	for i := 0; i < 30; i++ {
