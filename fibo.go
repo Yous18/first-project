@@ -6,11 +6,10 @@ func main() {
 	var UserNumber int
 	fmt.Println("Vitya, print your number: ")
 	fmt.Scan(&UserNumber)
-	var x int = UserNumber
-	fiboList(x)
+	
 
 }
-func fiboList(x int) {
+func fiboList(userNumber int) {
 	var n1 int = 0
 	var n2 int = 1
 	var n3 int = n2
